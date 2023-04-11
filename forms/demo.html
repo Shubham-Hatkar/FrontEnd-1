@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h3> General Details </h3>
+
+        <div>
+            <label for="username"> Username : </label><br>
+            <!-- name attribute is used for mapping data from frontend to backend -->
+            <input type="text" name="username"  placeholder = "Enter your username" value="shubham" id="">
+        </div><br>
+
+        <div>
+            <label for="name">Full Name : </label><br>
+            <input type="text" name="fullname"  size = "10" maxlength="10" id="">
+        </div><br>
+
+        <div>
+            <label for="number">Phone Number : </label><br>
+            <!-- you can use tel -->
+            <input type="number" name="phonenumber" id="">
+        </div><br>
+
+        <div>
+            <label for="emial">Email : </label><br>
+            <!-- email tells @ is needed -->
+            <input type="email" name="email" id="">
+        </div><br>
+
+        <div>
+            <label for="password">Password : </label><br>
+            <!-- not visible to user -->
+            <input type="password" name="password"  id="">
+        </div><br>
+
+        <div>
+            <label for="DOB">DOB : </label><br>
+            <input type="date" name="DOB" id="">
+        </div><br>  
+
+        <div>
+            <label for="password"> Gender : </label><br>
+            
+            <input type="radio" name="gender" checked id="">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id=""> 
+            <label for="female">Female</label>
+
+        </div><br>
+
+        <div>
+            <label for="hobbies">Hobbies : </label><br>
+            <input type="checkbox" name="hobbies" id=""> Playing Cricket <br>
+            <input type="checkbox" name="" id=""> Swimming <br>
+            <input type="checkbox" name="" id=""> Reading <br>
+            <input type="checkbox" name="" id=""> Watching Movies <br>
+        </div><br>  
+
+        <!-- dropdownlist -->
+        <div>
+            <label for="city"> City : </label><br>
+            <select name="city" id="">
+                <option value="kolhapur"> kolhapur </option>
+                <option value="pune"> pune </option>
+                <option value="mumbai"> mumbai </option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="intro"> Tell me about yourself : </label><br>
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        
+        <input type="submit" value = "Submit">
+        <input type="reset" value = "Reset" disabled>
+
+    </form>
+</body>
+</html>

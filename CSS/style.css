@@ -1,0 +1,46 @@
+/* tag selector */
+h1{
+    border: 1px solid black;
+}
+
+/* class selector */
+.para{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* id selectors : style element which has specific id*/
+#para4
+{
+    font-size: 25px;
+}
+
+/* universal selectors : select all elements in your page */
+*
+{
+    text-align: center;
+}
+
+/* grouping selectors : used for grouping diff selectors with same style */
+h1, p
+{
+    color: black;
+}
+
+.btn
+{
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+#btn1{
+    background-color: greenyellow;
+}
+
+#btn2
+{
+    background-color: blue;
+}
